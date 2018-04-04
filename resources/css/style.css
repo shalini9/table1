@@ -1,0 +1,34 @@
+body {
+  width: 26cm;
+  font-family: "sans-serif";
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tableContainer {
+  display: grid;
+  width: 45em;
+  grid-template-columns: 50% 20% 20%;
+  margin-left: auto;
+  margin-right:auto;
+  }
+
+.tableContainer div {
+  text-align: center;
+  border-bottom: blue 1px solid;
+  padding: 10px;
+}
+
+.tableContainer .columnHeading {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.tableContainer .leftAlign {
+  text-align: left;
+}
